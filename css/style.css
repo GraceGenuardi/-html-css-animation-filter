@@ -139,12 +139,30 @@
     border-radius: 50%;
  }
 
-
+/*******ESERCIZIO 9*****/
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+/*********
+ SOLUZIONE 
+ ESERCIZIO 9
+ **********/
+ .ex-9-img {
+    transition: 3s;
+ }
+
+ .ex-9-img:hover {
+    filter: grayscale(1) brightness(1);
+    border-radius: 20%;
+    width: 100px ;
+    height: 100px;
+ }
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
