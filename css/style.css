@@ -101,21 +101,45 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/******ESERCIZIO 6-7-8*******/
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
+/*********
+ SOLUZIONE 
+ ESERCIZIO 6
+ **********/
+ .ex-6-img:hover {
+    filter: grayscale(1);
+ }
+
+/*********
+ SOLUZIONE 
+ ESERCIZIO 7
+ **********/
+ .ex-7-img {
+    transition: 3s;
+ }
+
+ .ex-7-img:hover {
+    filter:sepia(1) brightness(1);
+ }
+
+/*********
+ SOLUZIONE 
+ ESERCIZIO 8
+ **********/
+ .ex-8-img {
+    transition: 3s;
+ }
+
+ .ex-8-img:hover {
+    filter: grayscale(1) brightness(1);
+    border-radius: 50%;
+ }
+
+
 
 .ex-9-img {
     margin: 50px 100px;
